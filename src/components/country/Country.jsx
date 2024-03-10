@@ -1,11 +1,10 @@
 
 
 const Country = ({country}) => {
-    console.log(country);
-    
+    const {name} = country
     return (
         <div>
-            <h3>name: </h3>
+            <h3>name:{name.common} </h3>
         </div>
     )
 }
